@@ -9,6 +9,9 @@ This project was written in conjunction with its Android counterpart. Please ref
  [https://github.com/efhilton/BluetoothJoystick](https://github.com/efhilton/BluetoothJoystick)
  for further information.
 
+ There's also a simple project that uses this library and can be seen as a simple example: 
+https://github.com/efhilton/BluetoothJoystickLibraryESP32Test
+
 
 # Questions?
 
