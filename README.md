@@ -14,6 +14,25 @@ This project:
  for further information.
 - was written in conjunction with a [simple ESP-IDF test project that uses this library and can be used as an example](https://github.com/efhilton/BluetoothJoystickLibraryESP32Test).
 
+# To Use
+
+To use this within your project, do the following. Go into your components folder and add the library.  In this case, we are adding it into `components/ble_joystick`:
+
+```bash
+cd <your project dir>/components
+git submodule add https://github.com/efhilton/BluetoothJoystick ble_joystick
+```
+
+Once added, you may or may not need to add the following to your project's `main/idf_component.yml` file:
+
+```yaml
+dependencies:
+  ble-joystick:
+    path: ../components/ble-joystick
+    version: "1.0.0"
+```
+
+And that's it! Please take a look at the example code above for further information.
 
 # Questions?
 
