@@ -1,5 +1,5 @@
 #include <BLEManager.hpp>
-#include <BleJoystick.hpp>
+#include <BLEJoystick.hpp>
 #include <cstdint>
 #include <functional>
 #include <memory>
