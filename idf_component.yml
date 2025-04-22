@@ -1,0 +1,14 @@
+version: "1.0.0"
+description: "Library for manipulating bluetooth"
+dependencies:
+  idf:
+    version: '>=4.1.0'
+  exceptions:
+    path: ../exceptions
+    version: 1.0.0
+
+paths:
+  include:
+    - include  # Public headers for this component
+  src:
+    - src

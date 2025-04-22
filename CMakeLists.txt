@@ -1,7 +1,7 @@
 idf_component_register(
         SRCS
-        "BLEManager.cpp"
-        "BLEJoystick.cpp"
+        "src/BLEManager.cpp"
+        "src/BLEJoystick.cpp"
 
         INCLUDE_DIRS
         "include"
